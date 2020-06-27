@@ -14,6 +14,13 @@
 
 图示
 =
-
+* 首页
+![](https://github.com/redkiki/Listen/blob/master/README_rsc/1.png) 
+* CET4资源页
+![](https://github.com/redkiki/Listen/blob/master/README_rsc/2.png)
+* CET6资源页
+![](https://github.com/redkiki/Listen/blob/master/README_rsc/3.png)
+* 播放页
+![](https://github.com/redkiki/Listen/blob/master/README_rsc/4.png)
 
 
