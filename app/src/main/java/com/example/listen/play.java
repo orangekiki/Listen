@@ -192,7 +192,7 @@ public class play extends AppCompatActivity
             //获取播放地址
             broadcast_data = intent.getStringExtra("dizhi");
             //音频播放，Uri解析的是音频存放的地址，该音频存放在我们的服务器里
-            mp = MediaPlayer.create(this, Uri.parse("http://47.102.202.254/CET/" + broadcast_data + ".mp3\n"));
+            mp = MediaPlayer.create(this, Uri.parse("http://存放音频的服务器ip或域名/CET/" + broadcast_data + ".mp3\n"));
             //循环播放
             mp.setLooping(true);
             //从头开始播放
@@ -319,7 +319,7 @@ public class play extends AppCompatActivity
             HttpURLConnection connection = null;
             BufferedReader reader = null;
             try {
-                String lrcUrl = "http://47.102.202.254/CET/" + broadcast_data + ".txt\n";
+                String lrcUrl = "http://存放音频的服务器ip或域名/CET/" + broadcast_data + ".txt\n";
                 URL url = new URL(lrcUrl);
                 connection = (HttpURLConnection) url.openConnection();
                 connection.setDoInput(true);
@@ -502,11 +502,11 @@ public class play extends AppCompatActivity
                         to = "en";
                     }
                     //appid  申请API的id
-                    String appid = "20200512000451329";
+                    String appid = "*******";
                     //随机数 这里范围是[0,100]整数 无强制要求
                     String salt = (int) (Math.random() * 100 + 1) + "";
                     //密钥
-                    String key = "ozHq7xbobJId2KRd_Tkl";
+                    String key = "********";
                     // string1 = appid+q+salt+密钥
                     String string1 = appid + word + salt + key;
                     // 签名 = string1的MD5加密 32位字母小写
