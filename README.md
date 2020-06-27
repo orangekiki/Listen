@@ -1,4 +1,4 @@
-项目说明
+项目与功能说明
 =
 ![](https://img.shields.io/badge/Api-baidutranslate-green) ![](https://img.shields.io/badge/Download-3.25M-blue) ![](https://img.shields.io/badge/License-Apache-orange)
 
@@ -7,5 +7,13 @@
 目前app只提供2017-2019年四级六级资源进行训练，但可进行扩展只需提供资源即可，如果高考的朋友或者雅思的朋友有需要请联系2022170090@qq.com.
 
     服务器时间很久，希望能帮到大家！
+开发环境
+=
+* Android Studio
+* Apache
+
+图示
+=
+
 
 
